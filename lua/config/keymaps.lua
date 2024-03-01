@@ -28,3 +28,17 @@ vim.keymap.set("n", "<leader>vd", function()
   ui.nav_file(4)
 end)
 -- harpoon remaps end
+
+-- Overseer
+vim.keymap.set("n", "<leader>ovr", "<cmd> OverseerRun <CR>")
+vim.keymap.set("n", "<leader>ovo", "<cmd> OverseerOpen <CR>")
+vim.keymap.set("n", "<leader>ovt", "<cmd> OverseerToggle <CR>")
+vim.keymap.set("n", "<leader>ovc", "<cmd> OverseerClearCache <CR>")
+
+--Tmux Navigator remaps start
+vim.keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")
+vim.keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>")
+vim.keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>")
+vim.keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>")
+
+--Tmux Navigator remaps end
